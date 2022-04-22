@@ -13,7 +13,7 @@ import { HiOutlineClock } from "react-icons/hi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "@emotion/react";
-import CountDownBoard from "../CountDownBoard/CountDownBoard";
+// import CountDownBoard from "../CountDownBoard/CountDownBoard";
 import { add } from "date-fns";
 
 // Styles
@@ -115,20 +115,20 @@ const SellerDetailsCard = ({ sdc, darkMode }) => {
                   <Box>
                     {!isMobile ? (
                       <Box>
-                        <CountDownBoard
+                        {/* <CountDownBoard
                           darkMode={darkMode}
                           futureDate={futureDate}
                           isCard={true}
-                        />
+                        /> */}
                       </Box>
                     ) : (
                       <Box
                         sx={{ position: "absolute", top: "45%", left: "26%" }}
                       >
-                        <CountDownBoard
+                        {/* <CountDownBoard
                           darkMode={darkMode}
                           futureDate={futureDate}
-                        />
+                        /> */}
                       </Box>
                     )}
                   </Box>

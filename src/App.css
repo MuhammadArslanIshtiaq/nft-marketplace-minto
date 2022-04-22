@@ -2,6 +2,13 @@ li {
   list-style: none;
 }
 
+.text-light-center{
+  color: #ffffff;
+  text-align: center;
+  transform-origin: bottom left;
+  animation: moveIn 2s 0s cubic-bezier(.36,0,.06,1) alternate infinite 
+}
+
 a {
   text-decoration: none;
   color: #ffffff;

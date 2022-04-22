@@ -67,7 +67,7 @@ const ArtCard = ({ artWork, handleDetails, darkMode }) => {
                   {artworkTitle}
                 </Typography>
                 <Typography variant="subtitle2" component="p" color="gray">
-                  {t("PRICE")}
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                 </Typography>
                 <Typography
                   variant="subtitle1"

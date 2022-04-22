@@ -15,7 +15,7 @@ import { GradientButtonPrimary } from "../../Utils/GradientButtons/GradientButto
 // Icon
 import { FaThumbsUp } from "react-icons/fa";
 
-import CountDownBoard from "../CountDownBoard/CountDownBoard";
+// import CountDownBoard from "../CountDownBoard/CountDownBoard";
 
 import { add } from "date-fns";
 
@@ -107,7 +107,7 @@ const AuctionCard = ({ la, darkMode, handleDetails }) => {
                 </Typography>
                 <Box className={styles.auctionCardInfoBox}>
                   <Box>
-                    <Typography
+                    {/* <Typography
                       color="secondary"
                       variant="caption"
                       fontSize="10px"
@@ -116,13 +116,15 @@ const AuctionCard = ({ la, darkMode, handleDetails }) => {
                       {auctionStatus === "live"
                         ? `${t("CURRENT_BID")}`
                         : `${t("BASE_PRICE")}`}
-                    </Typography>
+                    </Typography> */}
                     <Typography
                       variant="body2"
                       color="secondary"
                       fontWeight={500}
+                      paddingTop={2}
                     >
-                      {auctionStatus === "live" ? currentBid : basePrice}
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                      {/* {auctionStatus === "live" ? currentBid : basePrice} */}
                     </Typography>
                   </Box>
                   <Box textAlign="right" my={3}>
@@ -132,16 +134,16 @@ const AuctionCard = ({ la, darkMode, handleDetails }) => {
                       fontSize="10px"
                       fontWeight={500}
                     >
-                      {auctionStatus === "live"
+                      {/* {auctionStatus === "live"
                         ? `${t("HIGHEST_BID")}`
-                        : `${t("BOUGHT_AT")}`}
+                        : `${t("BOUGHT_AT")}`} */}
                     </Typography>
                     <Typography
                       variant="body2"
                       color="secondary"
                       fontWeight={500}
                     >
-                      {auctionStatus === "live" ? highestBid : boughtAt}
+                      {/* {auctionStatus === "live" ? highestBid : boughtAt} */}
                     </Typography>
                   </Box>
                 </Box>
@@ -149,19 +151,19 @@ const AuctionCard = ({ la, darkMode, handleDetails }) => {
                   <Box>
                     {!isMobile ? (
                       <Box>
-                        <CountDownBoard
+                        {/* <CountDownBoard
                           darkMode={darkMode}
                           futureDate={futureDate}
                           isCard={true}
-                        />
+                        /> */}
                       </Box>
                     ) : (
                       <Box className={styles.countDownBoxMobile}>
                         <Box>
-                          <CountDownBoard
+                          {/* <CountDownBoard
                             darkMode={darkMode}
                             futureDate={futureDate}
-                          />
+                          /> */}
                         </Box>
                       </Box>
                     )}

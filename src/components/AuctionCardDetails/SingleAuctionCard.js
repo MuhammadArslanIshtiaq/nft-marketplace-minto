@@ -33,7 +33,7 @@ import { HiOutlineClock, HiTemplate } from "react-icons/hi";
 import { BsFillBookmarkFill, BsBookmark, BsChevronDown } from "react-icons/bs";
 import { FaThumbsUp } from "react-icons/fa";
 
-import CountDownBoard from "../CountDownBoard/CountDownBoard";
+// import CountDownBoard from "../CountDownBoard/CountDownBoard";
 
 import { useTranslation } from "react-i18next";
 
@@ -330,10 +330,10 @@ const SingleAuctionCard = ({ fa, darkMode }) => {
                   </Typography>
                   <Divider className={styles.dividerStyle} />
                   <Box mt={3}>
-                    <CountDownBoard
+                    {/* <CountDownBoard
                       darkMode={darkMode}
                       futureDate={futureDate}
-                    />
+                    /> */}
                   </Box>
                   <Divider className={styles.dividerStyle} />
                   <Box className={styles.auctionInfoBox}>
@@ -541,10 +541,10 @@ const SingleAuctionCard = ({ fa, darkMode }) => {
                   }}
                 >
                   <Box ml={4}>
-                    <CountDownBoard
+                    {/* <CountDownBoard
                       darkMode={darkMode}
                       futureDate={futureDate}
-                    />
+                    /> */}
                   </Box>
                 </Box>
               </Box>

@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 
-import CountDownBoard from "../CountDownBoard/CountDownBoard";
+// import CountDownBoard from "../CountDownBoard/CountDownBoard";
 
 import { add } from "date-fns";
 
@@ -83,10 +83,12 @@ const AuctionCardPrev = ({ la, darkMode, handleDetails }) => {
                   fontSize={"9px"}
                   color={darkMode ? "#ffffff" : "#121212"}
                   fontWeight={500}
+                  paddingTop={2}
                 >
-                  {auctionStatus === "live"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                  {/* {auctionStatus === "live"
                     ? `${t("CURRENT_BID")}`
-                    : `${t("BASE_PRICE")}`}
+                    : `${t("BASE_PRICE")}`} */}
                 </Typography>
                 <Typography
                   variant="body2"
@@ -94,7 +96,7 @@ const AuctionCardPrev = ({ la, darkMode, handleDetails }) => {
                   color={darkMode ? "#ffffff" : "#121212"}
                   fontWeight={500}
                 >
-                  {auctionStatus === "live" ? currentBid : basePrice}
+                  {/* {auctionStatus === "live" ? currentBid : basePrice} */}
                 </Typography>
               </Box>
               <Box textAlign="right" my={3}>
@@ -104,9 +106,9 @@ const AuctionCardPrev = ({ la, darkMode, handleDetails }) => {
                   color={darkMode ? "#ffffff" : "#121212"}
                   fontWeight={500}
                 >
-                  {auctionStatus === "live"
+                  {/* {auctionStatus === "live"
                     ? `${t("HIGHEST_BID")}`
-                    : `${t("BOUGHT_AT")}`}
+                    : `${t("BOUGHT_AT")}`} */}
                 </Typography>
                 <Typography
                   variant="body2"
@@ -114,7 +116,7 @@ const AuctionCardPrev = ({ la, darkMode, handleDetails }) => {
                   color={darkMode ? "#ffffff" : "#121212"}
                   fontWeight={500}
                 >
-                  {auctionStatus === "live" ? highestBid : boughtAt}
+                  {/* {auctionStatus === "live" ? highestBid : boughtAt} */}
                 </Typography>
               </Box>
             </Box>
@@ -122,19 +124,19 @@ const AuctionCardPrev = ({ la, darkMode, handleDetails }) => {
               <Box>
                 {!isMobile ? (
                   <Box>
-                    <CountDownBoard
+                    {/* <CountDownBoard
                       darkMode={darkMode}
                       futureDate={futureDate}
                       isCard={true}
-                    />
+                    /> */}
                   </Box>
                 ) : (
                   <Box className={styles.countDownBoxMobile}>
                     <Box>
-                      <CountDownBoard
+                      {/* <CountDownBoard
                         darkMode={darkMode}
                         futureDate={futureDate}
-                      />
+                      /> */}
                     </Box>
                   </Box>
                 )}

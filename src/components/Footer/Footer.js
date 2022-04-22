@@ -163,7 +163,7 @@ const Footer = ({ darkMode }) => {
         component="div"
         sx={{ color: "gray", textAlign: "center", mt: 2 }}
       >
-        &copy; 2021 {t("FOOTER_COPYRIGHT")}
+        &copy; 2022 {t("FOOTER_COPYRIGHT")}
       </Typography>
     </Container>
   );

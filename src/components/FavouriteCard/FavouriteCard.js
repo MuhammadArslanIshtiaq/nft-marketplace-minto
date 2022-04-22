@@ -16,7 +16,7 @@ import { HiOutlineClock } from "react-icons/hi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { FaThumbsUp } from "react-icons/fa";
 
-import CountDownBoard from "../CountDownBoard/CountDownBoard";
+// import CountDownBoard from "../CountDownBoard/CountDownBoard";
 import { add } from "date-fns";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "@emotion/react";
@@ -172,21 +172,21 @@ const FavouriteCard = ({ fb, darkMode }) => {
                   <Box>
                     {!isMobile ? (
                       <Box>
-                        <CountDownBoard
+                        {/* <CountDownBoard
                           isCard={true}
                           darkMode={darkMode}
                           futureDate={futureDate}
-                        />
+                        /> */}
                       </Box>
                     ) : (
                       <Box
                         sx={{ position: "absolute", top: "45%", left: "26%" }}
                       >
                         <Box>
-                          <CountDownBoard
+                          {/* <CountDownBoard
                             darkMode={darkMode}
                             futureDate={futureDate}
-                          />
+                          /> */}
                         </Box>
                       </Box>
                     )}
