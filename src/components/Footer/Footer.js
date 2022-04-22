@@ -33,9 +33,9 @@ const Footer = ({ darkMode }) => {
         <Box sx={{ maxWidth: "430px" }}>
           <Box>
             {darkMode ? (
-              <img src={MainLogo} alt="Minto" width="100px" />
+              <img src={MainLogo} alt="BATER" width="100px" />
             ) : (
-              <img src={MainLogoLight} alt="Minto" width="100px" />
+              <img src={MainLogoLight} alt="BATER" width="100px" />
             )}
           </Box>
           <Box sx={{ my: 2 }}>

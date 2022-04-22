@@ -198,14 +198,14 @@ const SideBar = ({ darkMode }) => {
                   <img
                     style={{ display: "block" }}
                     src={MainLogo}
-                    alt="Minto"
+                    alt="BATER"
                     width="80px"
                   />
                 ) : (
                   <img
                     style={{ display: "block" }}
                     src={MainLogoLight}
-                    alt="Minto"
+                    alt="BATER"
                     width="70px"
                   />
                 )}
