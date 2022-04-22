@@ -6,7 +6,7 @@ export const biddingData = [
         name: "Joder Thing",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264443/Minto%20NFT%20Marketplace/avatars/joe_west.jpg",
-        amount: "1890 MINTO",
+        amount: "1890 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },
@@ -15,7 +15,7 @@ export const biddingData = [
         name: "Juhi",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264442/Minto%20NFT%20Marketplace/avatars/juhi.jpg",
-        amount: "1000 MINTO",
+        amount: "1000 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },
@@ -24,7 +24,7 @@ export const biddingData = [
         name: "Michail",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264443/Minto%20NFT%20Marketplace/avatars/michail.jpg",
-        amount: "900 MINTO",
+        amount: "900 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },
@@ -33,7 +33,7 @@ export const biddingData = [
         name: "Madison",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264441/Minto%20NFT%20Marketplace/avatars/maddy.jpg",
-        amount: "1500 MINTO",
+        amount: "1500 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },
@@ -42,7 +42,7 @@ export const biddingData = [
         name: "Alex Garcia",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264441/Minto%20NFT%20Marketplace/avatars/alexa_garcia.jpg",
-        amount: "2200 MINTO",
+        amount: "2200 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },
@@ -53,7 +53,7 @@ export const biddingData = [
         name: "Alex Garcia",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264441/Minto%20NFT%20Marketplace/avatars/alexa_garcia.jpg",
-        amount: "500 MINTO",
+        amount: "500 BATER",
         date: "15/06/2021",
         time: "5:40",
       },
@@ -62,7 +62,7 @@ export const biddingData = [
         name: "Alex Garcia",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264441/Minto%20NFT%20Marketplace/avatars/alexa_garcia.jpg",
-        amount: "1500 MINTO",
+        amount: "1500 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },
@@ -71,7 +71,7 @@ export const biddingData = [
         name: "Maddy",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264441/Minto%20NFT%20Marketplace/avatars/maddy.jpg",
-        amount: "1000 MINTO",
+        amount: "1000 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },
@@ -80,7 +80,7 @@ export const biddingData = [
         name: "Maddy",
         avatar:
           "https://res.cloudinary.com/djisilfwk/image/upload/v1642264441/Minto%20NFT%20Marketplace/avatars/maddy.jpg",
-        amount: "1100 MINTO",
+        amount: "1100 BATER",
         date: "15 January, 2022",
         time: "5:40",
       },

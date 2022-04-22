@@ -350,11 +350,11 @@ const SideDrawer = ({ darkMode, mobileOpen, handleDrawerToggle }) => {
         {!settingsExpanded && (
           <>
             {darkMode ? (
-              <img src={SideFooterLogoDark} alt="Side Footer Main Minto Logo" />
+              <img src={SideFooterLogoDark} alt="Side Footer Main BATER Logo" />
             ) : (
               <img
                 src={SideFooterLogoLight}
-                alt="Side Footer Main Minto Logo"
+                alt="Side Footer Main BATER Logo"
               />
             )}
 
